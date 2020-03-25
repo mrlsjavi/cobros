@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 Route::resource('cliente', 'ClienteController');
 Route::resource('servicio', 'ServicioController');
+Route::resource('recurrencia', 'RecurrenciaController');
